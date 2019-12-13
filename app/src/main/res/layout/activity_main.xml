@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="@color/colorPrimary"
+        app:title="NAME_PLACE_ANIMAL_THING" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+
+        >
+
+        <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:flipDuration="500"
+            app:flipEnabled="true"
+            app:flipOnTouch="true">
+
+
+            <!--<ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/clock_ic"
+                />-->
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="@string/alpha_c"
+                android:textSize="70dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/border_2"
+                android:src="@drawable/bear_ic" />
+        </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+        <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:flipDuration="500"
+            app:flipEnabled="true"
+            app:flipOnTouch="true">
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="@string/alpha_u"
+                android:textSize="70dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:background="@drawable/border_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/clock_ic" />
+        </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+        <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:flipDuration="500"
+            app:flipEnabled="true"
+            app:flipOnTouch="true">
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="@string/alpla_a"
+                android:textSize="70dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/border_2"
+                android:src="@drawable/sofa_ic" />
+        </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:flipDuration="500"
+            app:flipEnabled="true"
+            app:flipOnTouch="true">
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="@string/alpha_x"
+                android:textSize="70dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:background="@drawable/border_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/cake_ic" />
+        </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+        <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:flipDuration="500"
+            app:flipEnabled="true"
+            app:flipOnTouch="true">
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="@string/alpha_o"
+                android:textSize="70dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+
+            <ImageView
+                android:background="@drawable/border_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/tiger_ic" />
+        </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+        <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:flipDuration="500"
+            app:flipEnabled="true"
+            app:flipOnTouch="true">
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="@string/alplha_f"
+                android:textSize="70dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:background="@drawable/border_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/paris_ic" />
+        </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:flipDuration="500"
+            app:flipEnabled="true"
+            app:flipOnTouch="true">
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="@string/alpha_y"
+                android:textSize="70dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:background="@drawable/border_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/cutie_ic" />
+        </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+        <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:flipDuration="500"
+            app:flipEnabled="true"
+            app:flipOnTouch="true">
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="@string/alpha_z"
+                android:textSize="70dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:background="@drawable/border_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/venice_ic" />
+        </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+        <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:flipDuration="1"
+            app:flipEnabled="true"
+            app:flipOnTouch="true">
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="@string/alpha_q"
+                android:textSize="70dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:background="@drawable/border_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/dolden_temple_ic" />
+        </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="154dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/border"
+        android:text="GO"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
