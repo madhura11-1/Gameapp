@@ -27,6 +27,7 @@
         >
 
         <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:id="@+id/flip1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:flipDuration="500"
@@ -59,6 +60,7 @@
         </com.wajahatkarim3.easyflipview.EasyFlipView>
 
         <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:id="@+id/flip2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:flipDuration="500"
@@ -84,6 +86,7 @@
         </com.wajahatkarim3.easyflipview.EasyFlipView>
 
         <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:id="@+id/flip3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:flipDuration="500"
@@ -119,6 +122,7 @@
         android:orientation="horizontal">
 
         <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:id="@+id/flip4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:flipDuration="500"
@@ -144,6 +148,7 @@
         </com.wajahatkarim3.easyflipview.EasyFlipView>
 
         <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:id="@+id/flip5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:flipDuration="500"
@@ -170,6 +175,7 @@
         </com.wajahatkarim3.easyflipview.EasyFlipView>
 
         <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:id="@+id/flip6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:flipDuration="500"
@@ -205,6 +211,7 @@
         android:orientation="horizontal">
 
         <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:id="@+id/flip7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:flipDuration="500"
@@ -230,6 +237,7 @@
         </com.wajahatkarim3.easyflipview.EasyFlipView>
 
         <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:id="@+id/flip8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:flipDuration="500"
@@ -255,6 +263,7 @@
         </com.wajahatkarim3.easyflipview.EasyFlipView>
 
         <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:id="@+id/flip9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:flipDuration="1"

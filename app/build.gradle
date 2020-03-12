@@ -29,4 +29,5 @@ dependencies {
     implementation 'com.wajahatkarim3.EasyFlipView:EasyFlipView:1.0.0'
     implementation "androidx.room:room-runtime:2.2.2"
     annotationProcessor "androidx.room:room-compiler:2.2.2"
+    testImplementation "androidx.room:room-testing:2.2.2"
 }
